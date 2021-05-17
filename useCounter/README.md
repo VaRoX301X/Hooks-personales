@@ -3,8 +3,8 @@
 Ejemplo de uso: 
 
 ```
-    const [counter, setCounter] = useState(initialState);
-
+    const {counter, increment, decrement, reset} = useCounter(x);
 ```
 
 useCounter() // recibe un valor por defecto
+x puede ser cualquier numero inicial.
